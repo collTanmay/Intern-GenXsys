@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- For icons -->
+</head>
+<body>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Advanced Service</h1>
+            <p>Discover innovative solutions that transform your business. Get started today!</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+
+    <section id="features" class="features">
+        <h2>Our Key Features</h2>
+        <div class="feature-grid">
+            <div class="feature-item fade-in">
+                <i class="fas fa-rocket"></i>
+                <h3>Fast Performance</h3>
+                <p>Lightning-fast loading times for optimal user experience.</p>
+            </div>
+            <div class="feature-item fade-in">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Secure & Reliable</h3>
+                <p>Top-notch security to protect your data and privacy.</p>
+            </div>
+            <div class="feature-item fade-in">
+                <i class="fas fa-users"></i>
+                <h3>Team Collaboration</h3>
+                <p>Seamless tools for effective team communication.</p>
+            </div>
+        </div>
+    </section>
+
+  
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <p>"This service revolutionized our workflow!"</p>
+                <cite>- John Doe, CEO</cite>
+            </div>
+            <div class="testimonial">
+                <p>"Incredible support and features."</p>
+                <cite>- Jane Smith, Manager</cite>
+            </div>
+            <div class="testimonial">
+                <p>"Highly recommend for any business."</p>
+                <cite>- Alex Johnson, Entrepreneur</cite>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button id="prev-btn">&lt;</button>
+            <button id="next-btn">&gt;</button>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
